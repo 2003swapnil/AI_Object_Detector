@@ -76,6 +76,7 @@ const ObjectDetection = () => {
             ref={webcamRef}
             className="rounded-md w-full lg:h-[720px]"
             muted
+            audio={false} // Disable audio
           />
           {/* canvas */}
           <canvas

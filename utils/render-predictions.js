@@ -38,6 +38,10 @@ export const renderPredictions = (predictions, ctx) => {
 };
 
 const playAudio = throttle(() => {
-  const audio = new Audio("/pols-aagyi-pols.mp3");
+  const audio = new Audio("/mixkit-classic-alarm-995.wav");
   audio.play();
 }, 2000);
+
+<button onClick={() => new Audio("/mixkit-classic-alarm-995.wav").play()}>
+  Test Alarm
+</button>
